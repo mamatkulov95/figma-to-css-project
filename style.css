@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.testimonial {
+    width: 1440px;
+    height: 896px;
+    background: #D5FAFC;
+    display: flex;
+}
+
+.testimonial-first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote {
+    width: 143px;
+    height: 120px;
+    margin-left: 165px;
+    margin-top: 64px;
+
+}
+
+.testimonial-heading {
+    position: absolute;
+    width: 445px;
+    height: 168px;
+    margin-left: 260px;
+    margin-top: 120px;
+}
+
+
+.testimonial-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.testimonial-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.testemonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    background: #FFFFFF;
+}
+
+.testemonialContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.testemonialFeedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.feedbackDescription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.personDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.feedbackAuthor {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+}
+
+.authorPosition {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+.hubspot {
+    width: 350px;
+    height: 468px;
+    margin-left: 355px;
+    margin-top: 128px;
+}
+
+.testimonial-second-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.airnb {
+    width: 445px;
+    height: 340px;
+    margin-left: 30px;
+    margin-top: 168px;
+}
+
+.book-myshow {
+    width: 350px;
+    height: 276px;
+    margin-top: 32px;
+    margin-left: 30px;
+
+}
