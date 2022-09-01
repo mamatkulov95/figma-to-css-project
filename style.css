@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     padding:16px 0 16px 0;
+    justify-content: center;
 }
 
 .logo-divider {
@@ -24,8 +25,7 @@
 .logos {
     display: flex;
     align-items: center;
-    gap: 64px;
-    margin: auto;
+    gap: 65px;
 
 }
 
