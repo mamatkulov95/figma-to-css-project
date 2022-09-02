@@ -21,7 +21,9 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.chevron-down{
+align-items:center;
+}
 .right-logo {
     display: flex;
     align-items: center;
@@ -46,7 +48,10 @@
     align-items: center;
     padding: 15px;
 }
-
+.dropdown-menu{
+    display:flex;
+    gap:4px;
+}
 
 .nav-link {
     list-style: none;
