@@ -7,45 +7,27 @@
 .footer-mini {
     background: #0B0D17;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+
 }
 
 .footer-left-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 24px;
-    margin-left: 165px;
-    margin-top: 56px;
-    margin-bottom: 56px;
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 12px;
 }
 
 .footer-links-row1 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 24px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-}
-
-.privacy-policy {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
@@ -53,13 +35,7 @@
 
 .footer-links-row2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 24px;
-
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
@@ -67,7 +43,6 @@
 }
 
 .ui-kit {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #D9DBE1;
@@ -77,16 +52,10 @@
 .download-badges {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 16px;
-    margin-top: 56px;
-    margin-left: 461px;
-
 }
 
 .get-app {
-    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #D9DBE1;
