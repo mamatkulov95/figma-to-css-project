@@ -7,55 +7,34 @@
 .cta {
     background: #2EC5CE;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+}
+
+.left-section {
+    padding-top: 70px;
 }
 
 .cta-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 48px;
-    margin-left: 165px;
-    margin-top: 68px;
-    margin-bottom: 67px;
     width: 540px;
-
-}
-
-.cta-message {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
 }
 
 .cta-heading {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-}
-
-.cta-section-heading {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 8px;
 }
 
 .cta-section-headingtext {
     font-weight: 800;
     font-size: 45px;
-    line-height: 64px;
     font-family: 'Inter', sans-serif;
 }
 
 .cta-heading-description {
-    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     font-family: 'Inter', sans-serif;
@@ -64,13 +43,10 @@
 .cta-getapp {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 8px;
 }
 
 .cta-getapp-text {
-    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     font-family: 'Inter', sans-serif;
@@ -78,26 +54,20 @@
 
 .cta-badges {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 12px;
+}
 
+.phone-mockup {
+    display: flex;
+    gap: 32px;
 }
 
 .phone-mockup1 {
-    position: absolute;
-    width: 232px;
-    left: 779px;
+    margin-bottom: 120px;
     filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
-
 }
 
 .phone-mockup2 {
-    position: absolute;
-    width: 242px;
-    height: 402px;
-    margin-left: 996px;
-    margin-top: 88px;
+    margin-top: 85px;
     filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
 }
