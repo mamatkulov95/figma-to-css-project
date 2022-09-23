@@ -6,49 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Inter:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap"
       rel="stylesheet"
     />
-    <title>Footer</title>
-  </head>
+    <title>app-landing-page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>    
   <body>
-    <footer class="footer-mini">
-      <div class="footer-left-section">
-        <div class="footer-left-logo">
-          <img src="/images/Logo.png" alt="Logo picture" />
-        </div>
+    <div class="app">
+      <nav class="nav-bar">
+        <ul class="nav-link-list">
+          <li class="nav-link">
+            <div class="right-logo">
+              <a href="#">
+                <img src="./images/Darklogo.png" alt="app-logo" />
+              </a>
+            </div>
+          </li>
+          <li class="nav-link"><a class="nav-link-text" href="#">About</a></li>
+          <li class="nav-link">
+            <a class="nav-link-text" href="#">Products</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link-text" href="#">Pricing</a>
+          </li>
+          <li class="nav-link"><a class="nav-link-text" href="#">Blog</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#">Jobs</a></li>
 
-        <div class="footer-links">
-          <div class="footer-links-row1">
-            <p class="download">Download now</p>
-            <p class="license">License</p>
-          </div>
-          <div class="footer-links-row2">
-            <p class="about">About</p>
-            <p class="features">Features</p>
-            <p class="pricing">Pricing</p>
-            <p class="carrers">Careers</p>
-            <p class="help">Help</p>
-            <p class="privacy-policy">Privacy policy</p>
-          </div>
-          <p class="ui-kit">© 2020 Landify UI Kit. All rights reserved</p>
+          <ul class="dropdown-menu">
+            <li class="nav-link">
+              <a class="nav-link-text" href="#">More </a>
+            </li>
+            <img
+              class="chevron-down"
+              src="./images/chevron-down.svg"
+              alt="chevron-down"
+            />
+          </ul>
+        </ul>
+        <ul class="nav-link-list-right">
+          <li class="nav-link">
+            <a href="#">
+              <img
+                src="./images/google-play-badge.png"
+                alt="google play market"
+              />
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <img src="./images/app-store-badge.png" alt="app-store-logo" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Organise projects. Get more done.</h1>
+          <button class="hero-button">Get started</button>
         </div>
+        <div class="phone-mockup">
+          <img class="hero-image" src="./images/iPhone X.svg" alt="Iphone X" />
+        </div>
+      </section>
+    </div>
+<footer class="footer-mini">
+  <div class="footer-left-section">
+    <div class="footer-left-logo">
+      <img src="/images/Logo.png" alt="Logo picture" />
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-links-row1">
+        <p class="download">Download now</p>
+        <p class="license">License</p>
       </div>
-      <div class="download-badges">
-        <p class="get-app">Get the App</p>
-        <img
-          src="/images/App Store Badge.png"
-          alt="App Store"
-          class="app-store"
-        />
-        <img
-          src="/images/Google Play Badge.png"
-          alt="Google Play Market"
-          class="google-play"
-        />
+      <div class="footer-links-row2">
+        <p class="about">About</p>
+        <p class="features">Features</p>
+        <p class="pricing">Pricing</p>
+        <p class="carrers">Careers</p>
+        <p class="help">Help</p>
+        <p class="privacy-policy">Privacy policy</p>
       </div>
-    </footer>
+      <p class="ui-kit">© 2020 Landify UI Kit. All rights reserved</p>
+    </div>
+  </div>
+  <div class="download-badges">
+    <p class="get-app">Get the App</p>
+    <img
+      src="/images/App Store Badge.png"
+      alt="App Store"
+      class="app-store"
+    />
+    <img
+      src="/images/Google Play Badge.png"
+      alt="Google Play Market"
+      class="google-play"
+    />
+  </div>
+</footer>
   </body>
 </html>
