@@ -8,61 +8,129 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
-    <title>Stats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Inter:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>app-landing-page</title>
 </head>
-<body>
+  <body>
+    <div class="app">
+      <nav class="nav-bar">
+        <ul class="nav-link-list">
+          <li class="nav-link">
+            <div class="right-logo">
+              <a href="#">
+                <img src="./images/Darklogo.png" alt="app-logo" />
+              </a>
+            </div>
+          </li>
+          <li class="nav-link"><a class="nav-link-text" href="#">About</a></li>
+          <li class="nav-link">
+            <a class="nav-link-text" href="#">Products</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link-text" href="#">Pricing</a>
+          </li>
+          <li class="nav-link"><a class="nav-link-text" href="#">Blog</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#">Jobs</a></li>
+
+          <ul class="dropdown-menu">
+            <li class="nav-link">
+              <a class="nav-link-text" href="#">More </a>
+            </li>
+            <img
+              class="chevron-down"
+              src="./images/chevron-down.svg"
+              alt="chevron-down"
+            />
+          </ul>
+        </ul>
+        <ul class="nav-link-list-right">
+          <li class="nav-link">
+            <a href="#">
+              <img
+                src="./images/google-play-badge.png"
+                alt="google play market"
+              />
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <img src="./images/app-store-badge.png" alt="app-store-logo" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Organise projects. Get more done.</h1>
+          <button class="hero-button">Get started</button>
+        </div>
+        <div class="phone-mockup">
+          <img class="hero-image" src="./images/iPhone X.svg" alt="Iphone X" />
+        </div>
+      </section>
+    </div>
+    <!-- Stats -->
     <div class="stats">
 
-        <div class="stats-heading">
-            <div class="stats-main-head">
-                <h2 class="stats-title"> Our 18 years of
-                    achievements
-                </h2>
-                <p class="stats-heading-description">With our super powers have reached this </p>
-            </div>
-            
-        </div>
-        
-        <div class="counts">
-            <div class="counts-row first">
+      <div class="stats-heading">
+          <div class="stats-main-head">
+              <h2 class="stats-title"> Our 18 years of
+                  achievements
+              </h2>
+              <p class="stats-heading-description">With our super powers have reached this </p>
+          </div>
+          
+      </div>
+      
+      <div class="counts">
+          <div class="counts-row first">
 
-                <div class="badge">
-                    <img class="badge-icon1" src="images/01.png" alt="1st icon of stats">
-                        <div class="badgeDetails">
-                            <h4 class="badgeNumber">10,000+ <h4/>
-                            <p class="badgeLabel">Downloads per day </p>
-                        </div>
-                </div>
-                
-                <div class="badge">
-                  <img class="badge-icon" src="/images/02.png" alt="2RD icon of stats">
-                  <div class="badgeDetails">
-                    <h4 class="badgeNumber"> 2 Million <h4/>
-                    <p class="badgeLabel"> Users </p>
-                  </div>
-                </div>
-                
-            </div>
-        <div class="counts-row second">
-
-            <div class="badge">
-              <img class="badge-icon" src="/images/03.png" alt="1st icon of stats">
-              <div class="badgeDetails">
-                  <h4 class="badgeNumber"> 500+ <h4/>
-                  <p class="badgeLabel"> Clients </p>
+              <div class="badge">
+                  <img class="badge-icon1" src="images/01.png" alt="1st icon of stats">
+                      <div class="badgeDetails">
+                          <h4 class="badgeNumber">10,000+ <h4/>
+                          <p class="badgeLabel">Downloads per day </p>
+                      </div>
               </div>
-            </div>
-
-            <div class="badge">
-              <img class="badge-icon" src="/images/04.png" alt="2RD icon of stats">
-              <div class="badgeDetails">
-                  <h4 class="badgeNumber"> 140 <h4/>
-                  <p class="badgeLabel"> Countries </p>
+              
+              <div class="badge">
+                <img class="badge-icon" src="/images/02.png" alt="2RD icon of stats">
+                <div class="badgeDetails">
+                  <h4 class="badgeNumber"> 2 Million <h4/>
+                  <p class="badgeLabel"> Users </p>
+                </div>
               </div>
+              
+          </div>
+      <div class="counts-row second">
+
+          <div class="badge">
+            <img class="badge-icon" src="/images/03.png" alt="1st icon of stats">
+            <div class="badgeDetails">
+                <h4 class="badgeNumber"> 500+ <h4/>
+                <p class="badgeLabel"> Clients </p>
             </div>
-               
-        </div>
+          </div>
+
+          <div class="badge">
+            <img class="badge-icon" src="/images/04.png" alt="2RD icon of stats">
+            <div class="badgeDetails">
+                <h4 class="badgeNumber"> 140 <h4/>
+                <p class="badgeLabel"> Countries </p>
+            </div>
+          </div>      
       </div>
     </div>
-</body>
+  </div>
+  </body>
 </html>
