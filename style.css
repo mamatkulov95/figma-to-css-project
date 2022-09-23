@@ -17,6 +17,10 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .app {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 100%;
 }
