@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .app {
@@ -91,7 +91,6 @@
     color: #18191f;
 
 }
-
 .hero-button {
     padding: 12px 32px;
     color: white;
@@ -104,6 +103,7 @@
 .hero-image {
     height: 542px;
 }
+
 
 .feature-single6-section {
     display: flex;
@@ -459,6 +459,62 @@
     width: 540px; }
 
 
+.footer-mini {
+    background: #0B0D17;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+.footer-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links-row1 {
+    display: flex;
+    gap: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-links-row2 {
+    display: flex;
+    gap: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.ui-kit {
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    font-family: 'Inter', sans-serif;
+}
+
+.download-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.get-app {
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9DBE1;
+    font-family: 'Inter', sans-serif;}
 .cta {
     background: #2EC5CE;
     display: flex;
