@@ -514,5 +514,70 @@
     font-size: 18px;
     line-height: 28px;
     color: #D9DBE1;
+    font-family: 'Inter', sans-serif;}
+.cta {
+    background: #2EC5CE;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.left-section {
+    padding-top: 70px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 540px;
+}
+
+.cta-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-section-headingtext {
+    font-weight: 800;
+    font-size: 45px;
     font-family: 'Inter', sans-serif;
+}
+
+.cta-heading-description {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.cta-getapp {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-getapp-text {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+}
+.cta-badges {
+    display: flex;
+    gap: 12px;
+}
+
+.phone-mockup {
+    display: flex;
+    gap: 32px;
+}
+
+.phone-mockupCta {
+    margin-bottom: 120px;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.phone-mockup2 {
+    margin-top: 85px;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
 }
